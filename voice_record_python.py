@@ -26,6 +26,7 @@ def seema_recorder(seconds,file):
     sd.wait()
     write(file,44100,seemarecording)
     print("Recording is finished")
+    print("data")
 
 seema_recorder(10,"Recordsave.wav1")    
 
